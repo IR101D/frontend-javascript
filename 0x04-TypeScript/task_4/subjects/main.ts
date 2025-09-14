@@ -25,7 +25,7 @@ namespace Subjects {
     console.log(java.getAvailableTeacher());
     console.log(java.getRequirement());
 
-    console.log("Reach");
+    console.log("React");
     react.setTeacher(cTeacher);
     console.log(react.getAvailableTeacher());
     console.log(react.getRequirements());
