@@ -40,7 +40,7 @@ interface printTeacherFunction {
 }
 
 //function printTeacher that displays first letter of firstname and full lastname
-function printTeacher(firstName, lastName): string {
+function printTeacher(firstName : string , lastName; string): string {
   return `${firstName.charAt(0)}. ${lastName}`;
 }
 
