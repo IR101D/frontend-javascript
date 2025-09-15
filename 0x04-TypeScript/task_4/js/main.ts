@@ -5,7 +5,7 @@
 /// <reference path="./Teacher.ts"/>
 
 namespace Subjects {
-    export const cTeacher : Teacher = {
+    export const cTeacher: Teacher = {
     firstName: "Guillaume",
     lastName: "Salva",
     experienceTeachingC: 10,
@@ -23,7 +23,7 @@ namespace Subjects {
     console.log("Java");
     java.setTeacher(cTeacher);
     console.log(java.getAvailableTeacher());
-    console.log(java.getRequirement());
+    console.log(java.getRequirements());
 
     console.log("Reach");
     react.setTeacher(cTeacher);
