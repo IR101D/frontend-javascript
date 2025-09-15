@@ -19,11 +19,11 @@ const teacher1 : Teacher = {
 console.log(teacher1);
 
 // Interface directors that inherits from teacher
-interface Directors extends Teacher {
+interface Director extends Teacher {
     numberOfReports : number ;
 }
 //example
-const director1: Directors = {
+const director1: Director = {
   firstName: 'John',
   lastName: 'Doe',
   location: 'London',
