@@ -49,7 +49,7 @@ console.log(createEmployee('$500'));
 
 export function isDirector (employee : Teacher | Director) : employee is Director
 {
-  return (employee as Director).workDirectorTasks !== undefined;
+  return "employee:"(employee as Director).workDirectorTasks !== undefined;
 }
 console.log({ employee });
  export function executeWork (employee : Teacher | Director) : string
