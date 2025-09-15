@@ -40,11 +40,9 @@ interface printTeacherFunction {
 }
 
 //function printTeacher that displays first letter of firstname and full lastname
-const printTeacher : printTeacherFunction = (FirstName : string , lastName : string) : string =>
- {
-  const firstInitial = FirstName.charAt(0).toUpperCase() ;
-  return '$firstInitial, $lastName';
- };
+function printTeacher(firstName: string, lastName: string): string {
+  return `${firstName.charAt(0)}. ${lastName}`;
+}
 
  //interface for the class
  interface StudentClassInterface {
